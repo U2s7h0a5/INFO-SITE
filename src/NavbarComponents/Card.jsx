@@ -10,20 +10,18 @@ const Card = () => {
         alt="pic"
       />
       <div className="main">
-      <h3 className="title"> Laura Smith</h3>
-      <div className="buttons">
-      <button type="button" class="btn btn-default btn-sm">Email</button>
-        <button type="button" class="btn btn-primary btn-sm">
-          Number
-        </button>
+      <h4 className="title"> Laura Smith</h4>
+      <div className="buttons">      
+        <button className="email">Email</button>
+        <button className="phone">Phone</button>
       </div>
-      <h4 className="about"> About </h4>
+      <h5 className="about"> About </h5>
       <small className="about-data">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud.
       </small>
-      <h4 className="interest"> Interest</h4>
+      <h5 className="interest"> Interest</h5>
       <small className="interest-data">
         Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
         dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
