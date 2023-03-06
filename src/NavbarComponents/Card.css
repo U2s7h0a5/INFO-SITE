@@ -1,90 +1,88 @@
-
-body{
-    background-color: rgb(44, 43, 43);      
+body {
+  background-color: rgb(44, 43, 43);
 }
-.container{
-    display: flex;
-    justify-content: center;      
-}
-.card{    
-    width: 25%;    
-    box-sizing: border-box;   
-}
- @media screen and (max-width:912px){
-    .card{
-        margin-top: 1%;
-        width: 70%;    
-        box-sizing: border-box;   
-    } 
- }
-
- @media screen and (min-width: 801px) and (max-width: 915px) {
-    .card{
-        margin-top: 1%;
-        width: 50%;    
-        box-sizing: border-box;   
-    }
-    }
- 
-
-.pic{
-    width: 90%;    
-}
-.title{
-    text-align: center;
-    color: white;
-}
-.buttons{  
+.container {
   display: flex;
-  margin-top: 1em;  
-  gap:2rem;
+  justify-content: center;
+}
+.card {
+  width: 25%;
+  box-sizing: border-box;
+}
+@media screen and (max-width: 912px) {
+  .card {
+    margin-top: 1%;
+    width: 70%;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 801px) and (max-width: 915px) {
+  .card {
+    margin-top: 1%;
+    width: 50%;
+    box-sizing: border-box;
+  }
+}
+
+.pic {
+  width: 90%;
+}
+.title {
+  text-align: center;
+  color: white;
+}
+.buttons {
+  display: flex;
+  margin-top: 1em;
+  gap: 2rem;
   justify-content: center;
   align-items: center;
 }
-.email{
-    background-color: white;
-    color: black;
-    border: none;
-    border-radius: 2px;
-    width: 100px;
+.email {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 2px;
+  width: 100px;
 }
-.phone{
-    background-color: blue;
-    color: white;
-    border: none;
-    border-radius: 2px;
-    width: 100px;
+.phone {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  width: 100px;
 }
 
-.about{
-    margin-top: 20px;      
-    margin-bottom: 1px;
-    color: white;
+.about {
+  margin-top: 20px;
+  margin-bottom: 1px;
+  color: white;
 }
-.about-data{    
-    color: white;    
+.about-data {
+  color: white;
 }
-.interest{
-    margin-top: 20px;   
-    margin-bottom: 1px;
-    color: white;
+.interest {
+  margin-top: 20px;
+  margin-bottom: 1px;
+  color: white;
 }
-.interest-data{    
-    color: white;
+.interest-data {
+  color: white;
 }
-.footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: azure;    
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: azure;
 }
-.main{
-    background-color:rgb(65, 63, 63);
-    padding: 20px;
+.main {
+  background-color: rgb(65, 63, 63);
+  padding: 20px;
 }
-.end{
-    background-color: rgb(8, 8, 8);
+.end {
+  background-color: rgb(8, 8, 8);
 }
