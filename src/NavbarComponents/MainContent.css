@@ -12,6 +12,19 @@ body {
   background-position-x: right;
   background-position-y: center;
 }
+
+@media screen and (max-width:600px) {
+  .main {
+    padding: 20px 20px;
+    color: white;
+    height: 100vh;
+    background-image: url(https://img.icons8.com/ios11/600/000000/react.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+  }
+  
+}
 .main-title {
   margin: 0;
   color: white;
